@@ -1,32 +1,40 @@
-class Student():
+class Student:
     def __init__(self):
         self.course = None
         self.name = None
 
-    def add_student_details(self):
-        self.name = input("Enter Student Name")
-        self.course = input("Enter Course Name")
+    def add_student(self):
+        self.name = input("Enter Student Name: ")
+        self.course = input("Enter Course Name: ")
 
     def show_student(self):
-        print("NAME: ", self.name, "Course ", self.course)
+        print("NAME: ", self.name, "\nCourse ", self.course)
 
 
 class Marks(Student):
     def __init__(self):
         self.total = None
+        self.percentage = None
 
     def add_marks(self):
-        self.add_student_details()
+        self.add_student()
         a = int(input("Enter marks: "))
         b = int(input("Enter marks: "))
         c = int(input("Enter marks: "))
-        self.total = (a+b+c) / 3
+        self.total = (a+b+c)
+        self.percentage = self.total / 3
 
     def show_marks(self):
         self.show_student()
-        print(self.total)
+        print("Total: ", self.total, "Percentage: ", self.percentage)
 
 
-s = Marks()
-s.add_marks()
-s.show_marks()
+no = int(input("How many Student: "))
+x = []
+for i in range(no):
+    i = Marks()
+    i.add_marks()
+    x.append(i)
+
+for i in x:
+    i.show_marks()
