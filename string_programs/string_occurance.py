@@ -9,4 +9,4 @@ for i in s1:
         x[i] = 1
 
 for (a, b) in x.items():
-    print({a:b})
+    print({a: b})
