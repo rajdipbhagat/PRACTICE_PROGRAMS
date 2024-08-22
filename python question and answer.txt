@@ -1,0 +1,5 @@
+1) What is Linear search?
+Linear search is also known as sequntial search. it is a simple algorithm that
+finds an elements in a list or array by checking each element in order until
+match is found or end list.
+=============================================================================
