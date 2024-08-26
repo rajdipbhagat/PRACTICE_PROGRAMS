@@ -2,4 +2,38 @@
 Linear search is also known as sequntial search. it is a simple algorithm that
 finds an elements in a list or array by checking each element in order until
 match is found or end list.
-=============================================================================
+
+=================================================================================
+
+2) What is function?
+A function is a block of reusable code that perform to specific task.
+It can take inputs, process them, and return the result.
+To define a function We use the def keyword.
+
+=================================================================================
+
+3) What is recursion function?
+Recursion is a technique where a function call itself again and again to solve the problem.
+A recursive function must have a base case to stop the recursion.
+
+=================================================================================
+4) What are the lambda function?
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+
+
+
+
+
+what is Binary Search?
+what is map function?
+Decorators?
+
+
+
+
+
+
+
+
+
